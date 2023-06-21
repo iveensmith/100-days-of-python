@@ -1,0 +1,7 @@
+print("*****Generate your band name by entering your city name and favorite pet*****")
+print()
+city = input("which city did you grow up in? ")
+pet = input("what is the name of your favorite  pet? ")
+bandName = (f"{city} {pet}")
+print()
+print(f"The name of your band is {bandName}")
